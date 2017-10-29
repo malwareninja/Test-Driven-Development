@@ -9,8 +9,10 @@ For more stuff & Help:-
 *******************************************  
 
 <h3>Requirements</h3>  
-1. Windows/Linux/Mac  
-2. Eclipse  
+<ol>  
+	<li>Windows/Linux/Mac</li>  
+	<li>Eclipse</li>  
+</ol>  
 
 <h1>Examples</h1>  
 <ul>  
@@ -18,6 +20,5 @@ For more stuff & Help:-
 	<li>Electric Fan</li>  
 	<li>Tata Sky Subscriber</li>  
 </ul>  
-
 
 <b><h1>Do contact if there are any queries!</h1></b>  
