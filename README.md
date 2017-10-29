@@ -9,8 +9,10 @@ For more stuff & Help:-
 *******************************************  
 
 <h3>Requirements</h3>  
-1. Windows/Linux/Mac  
-2. Eclipse  
+<ol>  
+	<li>Windows/Linux/Mac</li>  
+	<li>Eclipse</li>  
+</ol>  
 
 <h1>Examples</h1>  
 <ul>  
