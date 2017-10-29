@@ -17,8 +17,7 @@ For more stuff & Help:-
 <h1>Examples</h1>  
 <ul>  
 	<li>Electric Lamp</li>  
-	<li>Electric Fan</li>  
-	<li>Tata Sky Subscriber</li>  
+	<li>Electric Fan</li>   
 </ul>  
 
 <b><h1>Do contact if there are any queries!</h1></b>  
