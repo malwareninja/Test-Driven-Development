@@ -9,25 +9,33 @@ public class Lamp {
 		this.dimmer = 0;
 	}
 	
-	public int setLampStatus(String status) {
+	public void setLampStatus(String status) {
 		this.lamp_status = status;
 		if(this.lamp_status.equals("On")) {
-			/*
-			 * If Lamp is On dimmer will vary in 3 levels
-			 */			
 			System.out.println("*** Lamp is turned On ***");
-			for(int i = 1; i <= 3; i++) {
-				System.out.println("Dimmer is at Level "+i);
+		}
+		else {
+			System.out.println("*** Lamp is turned Off ***");
+			this.dimmer = 0;
+		}
+	}
+	
+	public String getLampStatus() {
+		return this.lamp_status;
+	}
+	
+	public void setDimmerLevel() {
+		if(this.lamp_status.equals("On")) {
+			if(this.dimmer != 3) {
 				this.dimmer++;
 			}
 		}
 		else {
-			System.out.println("*** Lamp is turned Off ***");
-			/*
-			 * If Lamp is Off dimmer is not operational
-			 */
-			this.dimmer = 0;
+			System.out.println("Lamp must be On");
 		}
+	}
+	
+	public int getDimmerLevel() {
 		return this.dimmer;
 	}
 }
