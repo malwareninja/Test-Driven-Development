@@ -18,6 +18,7 @@ For more stuff & Help:-
 <ul>  
 	<li>Electric Lamp</li>  
 	<li>Electric Fan</li>   
+	<li>Point</li>  
 </ul>  
 
 <b><h1>Do contact if there are any queries!</h1></b>  
